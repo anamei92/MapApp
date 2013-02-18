@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h>
 
-@interface APMViewController : UIViewController
+@interface APMViewController : UIViewController <CLLocationManagerDelegate>
+@property (weak, nonatomic) IBOutlet MKMapView *mapview;
+
 
 @end

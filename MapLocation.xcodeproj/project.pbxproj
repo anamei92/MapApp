@@ -18,6 +18,10 @@
 		90AEA60916CF5D3200A2C4AB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90AEA60816CF5D3200A2C4AB /* Default-568h@2x.png */; };
 		90AEA60C16CF5D3200A2C4AB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90AEA60A16CF5D3200A2C4AB /* MainStoryboard.storyboard */; };
 		90AEA60F16CF5D3200A2C4AB /* APMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AEA60E16CF5D3200A2C4AB /* APMViewController.m */; };
+		90AEA61616CF70A200A2C4AB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AEA61516CF70A200A2C4AB /* CoreLocation.framework */; };
+		90AEA61816CF71CA00A2C4AB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AEA61716CF71CA00A2C4AB /* MapKit.framework */; };
+		90AEA61A16D1A45900A2C4AB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 90AEA61916D1A45900A2C4AB /* icon.png */; };
+		90AEA61C16D1A47D00A2C4AB /* icon_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 90AEA61B16D1A47C00A2C4AB /* icon_big.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		90AEA60B16CF5D3200A2C4AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		90AEA60D16CF5D3200A2C4AB /* APMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APMViewController.h; sourceTree = "<group>"; };
 		90AEA60E16CF5D3200A2C4AB /* APMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APMViewController.m; sourceTree = "<group>"; };
+		90AEA61516CF70A200A2C4AB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		90AEA61716CF71CA00A2C4AB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		90AEA61916D1A45900A2C4AB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		90AEA61B16D1A47C00A2C4AB /* icon_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_big.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90AEA61816CF71CA00A2C4AB /* MapKit.framework in Frameworks */,
+				90AEA61616CF70A200A2C4AB /* CoreLocation.framework in Frameworks */,
 				90AEA5F316CF5D3200A2C4AB /* UIKit.framework in Frameworks */,
 				90AEA5F516CF5D3200A2C4AB /* Foundation.framework in Frameworks */,
 				90AEA5F716CF5D3200A2C4AB /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +66,10 @@
 		90AEA5E616CF5D3200A2C4AB = {
 			isa = PBXGroup;
 			children = (
+				90AEA61B16D1A47C00A2C4AB /* icon_big.png */,
+				90AEA61916D1A45900A2C4AB /* icon.png */,
+				90AEA61716CF71CA00A2C4AB /* MapKit.framework */,
+				90AEA61516CF70A200A2C4AB /* CoreLocation.framework */,
 				90AEA5F816CF5D3200A2C4AB /* MapLocation */,
 				90AEA5F116CF5D3200A2C4AB /* Frameworks */,
 				90AEA5F016CF5D3200A2C4AB /* Products */,
@@ -164,6 +178,8 @@
 				90AEA60716CF5D3200A2C4AB /* Default@2x.png in Resources */,
 				90AEA60916CF5D3200A2C4AB /* Default-568h@2x.png in Resources */,
 				90AEA60C16CF5D3200A2C4AB /* MainStoryboard.storyboard in Resources */,
+				90AEA61A16D1A45900A2C4AB /* icon.png in Resources */,
+				90AEA61C16D1A47D00A2C4AB /* icon_big.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +315,7 @@
 				90AEA61416CF5D3200A2C4AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
